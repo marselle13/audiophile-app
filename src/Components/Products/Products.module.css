@@ -1,0 +1,13 @@
+.productsLanding {
+  padding: 100px 0;
+}
+
+.productsLanding h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

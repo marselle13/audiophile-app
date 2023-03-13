@@ -1,0 +1,42 @@
+.header {
+  background: #0e0e0e;
+}
+
+.landingContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mainNavigation {
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  gap: 40px;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 34px;
+}
+
+.nav .list {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 1028px) {
+}
