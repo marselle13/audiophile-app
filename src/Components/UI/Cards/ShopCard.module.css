@@ -1,0 +1,76 @@
+.shopCard {
+  background: #f1f1f1;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  height: 204px;
+}
+
+.cardImage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.cardImage img {
+  position: absolute;
+  bottom: -20px;
+  z-index: 10;
+}
+
+.cardImage .shadow {
+  position: relative;
+  background-color: #000000;
+  filter: blur(21px);
+  width: 20%;
+  top: 50px;
+}
+
+.cardText h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.cardText {
+  position: relative;
+  top: 0;
+}
+
+.cardText .link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.cardText .link:hover {
+  color: #d87d4a;
+}
+
+.shopCard {
+  display: flex;
+  align-items: center;
+}
+
+.shopCard .link::after {
+  content: url(../../assets/shared/desktop/icon-arrow-right.svg);
+  position: relative;
+  top: 2px;
+  left: 14px;
+}
+
+.cardText {
+  margin-top: -50px;
+}

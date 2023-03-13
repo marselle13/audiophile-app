@@ -1,0 +1,70 @@
+.mainCard {
+  background: #d87d4a;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 170px;
+  justify-content: space-between;
+  padding-right: 90px;
+}
+
+.mainImageDiv {
+  background: url(../../assets/shared/desktop/circle.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.speakerImage {
+  padding-top: 90px;
+  position: relative;
+  left: 117px;
+  top: 5px;
+}
+
+.cardText {
+  max-width: 350px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.cardText h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.cardText p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.mainCard button {
+  background: #000000;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 160px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+@media (max-width: 1440px) {
+  .speakerImage {
+    left: 20px;
+  }
+
+  .mainCard {
+    padding-right: 20px;
+  }
+}

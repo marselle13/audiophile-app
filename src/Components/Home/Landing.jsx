@@ -3,7 +3,7 @@ import ladingPhoto from "../assets/shared/desktop/image-xx99-mark-two-headphones
 const Landing = () => {
   return (
     <section className={classes.landing}>
-      <div>
+      <div className={classes.textDiv}>
         <div className={classes.landingText}>
           <label>New Product</label>
           <h2>XX99 Mark II Headphones</h2>

@@ -19,6 +19,10 @@
   height: 48px;
 }
 
+.landing button:hover {
+  background: #fbaf85;
+}
+
 .landingText {
   max-width: 400px;
   width: 100%;
@@ -54,12 +58,17 @@
 }
 
 @media (max-width: 1440px) {
-  .landingPicture {
-    position: relative;
+  .landing {
+    justify-content: center;
   }
 
-  .landingText {
+  .landingPicture {
     position: relative;
+    bottom: 100px;
+  }
+
+  .textDiv {
+    position: absolute;
     z-index: 1;
   }
 }

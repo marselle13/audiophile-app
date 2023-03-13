@@ -38,5 +38,9 @@
   text-decoration: none;
 }
 
+.nav .list:hover {
+  color: #d87d4a;
+}
+
 @media (min-width: 1028px) {
 }
